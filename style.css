@@ -9,7 +9,7 @@
 body {
   margin: 2% 15%;
   font-family: "Ubuntu", sans-serif;
-  background-color: #1c315e;
+  background-color: #f0f8ff;
 }
 
 /* Header CSS */
@@ -31,11 +31,11 @@ nav #navbar ul li a {
   text-decoration: none;
   font-size: 18px;
   font-weight: 500;
-  color: #e1e7ef;
+  color: #0e2431;
 }
 
 nav #navbar ul li a:hover {
-  color: #e6e2c3;
+  color: #4070f4;
 }
 
 nav .media-icons {
@@ -45,11 +45,89 @@ nav .media-icons {
 }
 
 nav .media-icons a i {
-  color: #e1e7ef;
+  color: #0e2431;
   font-size: 18px;
 }
 
 nav .media-icons a i:hover {
-  color: #e6e2c3;
+  color: #4070f4;
   font-size: 18px;
+}
+
+/* ===HOME=== */
+/* Main CSS */
+/* Hero CSS */
+#hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 80px;
+}
+
+#hero #hero-greetings .teks-satu {
+  font-size: 25px;
+}
+
+#hero #hero-greetings .teks-dua {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+#hero #hero-greetings .teks-tiga {
+  font-size: 20px;
+  color: #4070f4;
+}
+
+#hero #hero-greetings .teks-empat {
+  font-size: 20px;
+}
+
+/* ===SKILLS=== */
+#skills {
+  margin: 100px 0 50px 0;
+}
+
+#skills .judul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 150px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  /* border: 1px solid black; */
+}
+
+#skills .judul .media-icons {
+  border-radius: 50%;
+  background-color: #d2e6f9;
+  padding: 12px;
+}
+
+#skills .judul .media-icons i {
+  font-size: 20px;
+  color: #4070f4;
+}
+
+#skills .judul h2 {
+  font-size: 20px;
+  color: #4070f4;
+}
+
+#skills .skills {
+  width: 700px;
+  padding: 20px;
+  border-bottom: 1px solid #d2e6f9;
+}
+
+#skills .skills:hover {
+  background-color: #d2e6f9;
+}
+
+#skills .skills:hover h2 {
+  color: #4070f4;
+}
+
+#skills .skills h2 {
+  font-size: 16px;
+  margin-bottom: 5px;
 }
